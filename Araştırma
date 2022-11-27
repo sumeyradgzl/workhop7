@@ -1,0 +1,32 @@
+TS'de undefined ve null nedir, aralarındaki fark nedir?
+null; boş değer anlamına gelen özel bir değerdir. typeof null bize nesne döndürür.
+undefined değişken bildirilmiş ama henüz değeri atanmamış demektir.
+Javascript asla null değeri atamaz. Eğer bir elemanın değeri null ise bu javascript tarafından değil, program tarafından atanmış demektir.
+
+HTTP request nedir, yapısı nedir, türleri nelerdir niçin kullanılır, http status kodları nelerdir, en sık kullılan http status kodları hangileridir
+Request’ istemci tarafından sunucu tarafına tam olarak Web sitesi ilgili ne yapacağımızı bildirdiğimiz bir mesajdır.
+CONNECT metodu hedefteki kaynak tarafından tanımlanan sunucuya bir tünel oluşturur.
+OPTIONS metodu hedefteki kaynağın iletişim seçeneklerini anlamak için kullanılır. (CORS olduğunda diğer domain o fiil var mı şeklinde sorar)
+HEAD metodu GET isteği ile tamamen aynı olan sadece gövdesi olmayan bir yanıt ister.
+TRACE metodu hedefteki kaynağa giden yol boyunca bir mesaj loop-back testi gerçekleştirir.
+GET metodu belirtilen kaynağın bir temsilini ister. GET kullanan istekler yalnızca veri almalıdır.
+POST metodu belirtilen kaynağa bir varlık (entity) göndermek için kullanılır, bu da genellikle sunucuda bir durum değişikliği ya da yan etkilere neden olur.
+PUT metodu hedefte bulunan kaynağın tüm geçerli temsillerinin yerine istek yükünü (request payload) koyar.
+DELETE metodu belirtilen kaynağı siler.
+PATCH metodu bir kaynağa kısmi değişiklikler uygulamak için kullanılır.
+
+TS'de interface 
+TypeScript’teki bir Interface, aşağı yukarı bir object için önceden kurgulanmış plan gibi davranır. Object’lerde ki property adları ve value hakkındaki bilgileri tanımlar.
+
+
+TS'de class (sınıf) ile object (nesne) arasındaki fark nedir
+Bir sınıf, ortak özellikleri ve davranışları olan nesnelerin söz konusu ortak özelliklerini ve ortak davranışlarını barındıran soyut bir kavramdır.
+Sınıfların asıl kullanım amacı, verileri tek tek değişkenler içerisinde tutmak yerine birbirleri ile ilişkisi olan verileri bir araya getirmek ve bunlara tek bir referans ile erişim sağlamaktır.
+Nesnelerde ise bir sınıf tanımlandıktan sonra aslında yeni bir tip oluşturmuş oluruz.
+Herhangi bir anda o sınıfa ait hiç nesne olmayabileceği gibi bir yada daha fazla sayıda nesne de olabilir.
+
+IoC nedir, Dependency Injection nedir
+IOC, uygulamanın yaşam döngüsü boyunca birbirine bağımlılığı az  olan nesneler oluşturmayı amaçlayan bir yazılım geliştirme prensibidir
+Dependency Injection, bir sınıfın/nesnenin bağımlılıklardan kurtulmasını amaçlayan ve o nesneyi olabildiğince bağımsızlaştıran bir programlama prensibidir.
+
+
